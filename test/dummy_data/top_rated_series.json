@@ -1,0 +1,29 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
+            "genre_ids": [
+                10759,
+                35,
+                16
+            ],
+            "id": 37854,
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "One Piece",
+            "overview": "Luffy will do anything to get the One Piece and become King of the Pirates!",
+            "popularity": 282.437,
+            "poster_path": "/cMD9Ygz11zjJzAovURpO75Qg7rT.jpg",
+            "first_air_date": "1999-10-20",
+            "name": "One Piece",
+            "vote_average": 8.729,
+            "vote_count": 4277
+        }
+    ],
+    "total_pages": 95,
+    "total_results": 1883
+}

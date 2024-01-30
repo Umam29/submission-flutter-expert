@@ -1,0 +1,29 @@
+{
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/iyt1okJXL52gJFcwIZhltHGBBZB.jpg",
+        "genre_ids": [
+          10759,
+          18,
+          10765
+        ],
+        "id": 153918,
+        "origin_country": [
+          "JP"
+        ],
+        "original_language": "ja",
+        "original_name": "Avataro",
+        "overview": "21 years ago, a baby arrived on earth inside of a peach. Today, five warriors based on the legend of Momotaro fight enemies that are inhabiting humans, invisible to the naked eye. Together they fight to take back gears based on previous Super Sentai.",
+        "popularity": 147.996,
+        "poster_path": "/qFu4THkPaCJiHMBT6YzEFKCsfV1.jpg",
+        "first_air_date": "2022-03-06",
+        "name": "Avataro Sentai Donbrothers",
+        "vote_average": 9,
+        "vote_count": 11
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 14
+}

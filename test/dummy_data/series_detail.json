@@ -1,0 +1,141 @@
+{
+    "adult": false,
+    "backdrop_path": "/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
+    "created_by": [],
+    "episode_run_time": [
+      24
+    ],
+    "first_air_date": "1999-10-20",
+    "genres": [
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      },
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 16,
+        "name": "Animation"
+      }
+    ],
+    "homepage": "http://www.toei-anim.co.jp/tv/onep",
+    "id": 37854,
+    "in_production": true,
+    "languages": [
+      "ja"
+    ],
+    "last_air_date": "2024-01-21",
+    "last_episode_to_air": {
+      "id": 5044220,
+      "name": "Brimming with the Future! An Adventure on the Island of Science!",
+      "overview": "Brimming with the Future! An Adventure on the Island of Science!",
+      "vote_average": 8.0,
+      "vote_count": 1,
+      "air_date": "2024-01-21",
+      "episode_number": 1091,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 24,
+      "season_number": 22,
+      "show_id": 37854,
+      "still_path": "/nQuvUtA42WquJngPDQTWEU53AjQ.jpg"
+    },
+    "name": "One Piece",
+    "next_episode_to_air": {
+      "id": 5056843,
+      "name": "Bonney's Lamentation! Darkness Lurking on the Future Island",
+      "overview": "",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "air_date": "2024-01-28",
+      "episode_number": 1092,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 24,
+      "season_number": 22,
+      "show_id": 37854,
+      "still_path": null
+    },
+    "networks": [
+      {
+        "id": 1,
+        "logo_path": "/yS5UJjsSdZXML0YikWTYYHLPKhQ.png",
+        "name": "Fuji TV",
+        "origin_country": "JP"
+      }
+    ],
+    "number_of_episodes": 1094,
+    "number_of_seasons": 22,
+    "origin_country": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "ONE PIECE",
+    "overview": "Years ago, the fearsome Pirate King, Gol D. Roger was executed leaving a huge pile of treasure and the famous ONE PIECE behind. Whoever claims the ONE PIECE will be named the new King of the Pirates. Luffy will do anything to get the One Piece and become King of the Pirates!",
+    "popularity": 282.437,
+    "poster_path": "/cMD9Ygz11zjJzAovURpO75Qg7rT.jpg",
+    "production_companies": [
+      {
+        "id": 5542,
+        "logo_path": "/ayE4LIqoAWotavo7xdvYngwqGML.png",
+        "name": "Toei Animation",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3341,
+        "logo_path": "/dTG5dXE1kU2mpmL9BNnraffckLU.png",
+        "name": "Fuji Television Network",
+        "origin_country": "JP"
+      },
+      {
+        "id": 130799,
+        "logo_path": null,
+        "name": "Avex Trax",
+        "origin_country": "JP"
+      },
+      {
+        "id": 2918,
+        "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
+        "name": "Shueisha",
+        "origin_country": "JP"
+      },
+      {
+        "id": 4720,
+        "logo_path": "/7wQgZTA4FCkFMDedBYVZiVE87c7.png",
+        "name": "Asatsu-DK",
+        "origin_country": "JP"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "JP",
+        "name": "Japan"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "1999-12-22",
+        "episode_count": 27,
+        "id": 49191,
+        "name": "Specials",
+        "overview": "",
+        "poster_path": "/d3TJkAgh8JZXrlD9z8R0pUgwIsx.jpg",
+        "season_number": 0,
+        "vote_average": 0
+      }
+    ],
+    "spoken_languages": [
+      {
+        "english_name": "Japanese",
+        "iso_639_1": "ja",
+        "name": "Japan"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "Set sail for One Piece!",
+    "type": "Scripted",
+    "vote_average": 8.729,
+    "vote_count": 4277
+}
