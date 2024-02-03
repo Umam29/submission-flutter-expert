@@ -1,20 +1,19 @@
 import 'dart:io';
 
+import 'package:core/core.dart';
 import 'package:dartz/dartz.dart';
-import 'package:ditonton/common/exception.dart';
-import 'package:ditonton/common/failure.dart';
-import 'package:ditonton/data/models/genre_model.dart';
-import 'package:ditonton/data/models/series/network_model.dart';
-import 'package:ditonton/data/models/series/production_country_model.dart';
-import 'package:ditonton/data/models/series/season_model.dart';
-import 'package:ditonton/data/models/series/series_detail_model.dart';
-import 'package:ditonton/data/models/series/series_model.dart';
-import 'package:ditonton/data/models/series/spoken_language_model.dart';
-import 'package:ditonton/data/models/series/t_episode_to_air_model.dart';
-import 'package:ditonton/data/repositories/series_repository_impl.dart';
-import 'package:ditonton/domain/entities/series/series.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
+import 'package:series/data/models/genre_model.dart';
+import 'package:series/data/models/network_model.dart';
+import 'package:series/data/models/production_country_model.dart';
+import 'package:series/data/models/season_model.dart';
+import 'package:series/data/models/series_detail_model.dart';
+import 'package:series/data/models/series_model.dart';
+import 'package:series/data/models/spoken_language_model.dart';
+import 'package:series/data/models/t_episode_to_air_model.dart';
+import 'package:series/domain/entities/series.dart';
+import 'package:series/series.dart';
 
 import '../../dummy_data/dummy_objects.dart';
 import '../../helpers/test_helper.mocks.dart';
@@ -48,7 +47,7 @@ void main() {
         'With his straw hat and ragtag crew, young pirate Monkey D. Luffy goes on an epic voyage for treasure.',
     popularity: 208.288,
     posterPath: '/rVX05xRKS5JhEYQFObCi4lAnZT4.jpg',
-    firstAirDate: DateTime.parse('2023-08-31'),
+    firstAirDate: '2023-08-31',
     name: 'ONE PIECE',
     voteAverage: 8.2,
     voteCount: 902,
@@ -69,7 +68,7 @@ void main() {
         'With his straw hat and ragtag crew, young pirate Monkey D. Luffy goes on an epic voyage for treasure.',
     popularity: 208.288,
     posterPath: '/rVX05xRKS5JhEYQFObCi4lAnZT4.jpg',
-    firstAirDate: DateTime.parse('2023-08-31'),
+    firstAirDate: '2023-08-31',
     name: 'ONE PIECE',
     voteAverage: 8.2,
     voteCount: 902,

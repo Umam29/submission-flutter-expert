@@ -1,6 +1,6 @@
-import 'package:ditonton/data/models/series/series_model.dart';
-import 'package:ditonton/domain/entities/series/series.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:series/data/models/series_model.dart';
+import 'package:series/domain/entities/series.dart';
 
 void main() {
   final tSeriesModel = SeriesModel(
@@ -14,7 +14,7 @@ void main() {
     overview: 'overview',
     popularity: 1,
     posterPath: 'posterPath',
-    firstAirDate: DateTime.parse('2024-01-01'),
+    firstAirDate: '2024-01-01',
     name: 'name',
     voteAverage: 1,
     voteCount: 1,
@@ -31,7 +31,7 @@ void main() {
     overview: 'overview',
     popularity: 1,
     posterPath: 'posterPath',
-    firstAirDate: DateTime.parse('2024-01-01'),
+    firstAirDate: '2024-01-01',
     name: 'name',
     voteAverage: 1,
     voteCount: 1,

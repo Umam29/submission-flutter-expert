@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:ditonton/domain/entities/series/series.dart';
-import 'package:ditonton/domain/usecases/series/search_series.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
+import 'package:series/domain/entities/series.dart';
+import 'package:series/domain/usecases/search_series.dart';
 
 import '../../helpers/test_helper.mocks.dart';
 

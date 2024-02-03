@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:ditonton/data/models/series/series_model.dart';
-import 'package:ditonton/data/models/series/series_response.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:series/data/models/series_model.dart';
+import 'package:series/data/models/series_response.dart';
 
 import '../../json_reader.dart';
 
@@ -18,7 +18,7 @@ void main() {
     overview: '',
     popularity: 3533.82,
     posterPath: '/v9nGSRx5lFz6KEgfmgHJMSgaARC.jpg',
-    firstAirDate: DateTime.parse('2005-10-13'),
+    firstAirDate: '2005-10-13',
     name: 'Binnelanders',
     voteAverage: 6.288,
     voteCount: 33,
@@ -59,7 +59,7 @@ void main() {
             "overview": "",
             "popularity": 3533.82,
             "poster_path": "/v9nGSRx5lFz6KEgfmgHJMSgaARC.jpg",
-            "first_air_date": DateTime.parse("2005-10-13"),
+            "first_air_date": "2005-10-13",
             "name": "Binnelanders",
             "vote_average": 6.288,
             "vote_count": 33,

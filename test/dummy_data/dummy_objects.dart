@@ -1,15 +1,16 @@
-import 'package:ditonton/data/models/movie_table.dart';
-import 'package:ditonton/data/models/series/series_table.dart';
-import 'package:ditonton/domain/entities/genre.dart';
-import 'package:ditonton/domain/entities/movie.dart';
-import 'package:ditonton/domain/entities/movie_detail.dart';
-import 'package:ditonton/domain/entities/series/network.dart';
-import 'package:ditonton/domain/entities/series/production_country.dart';
-import 'package:ditonton/domain/entities/series/season.dart';
-import 'package:ditonton/domain/entities/series/series.dart';
-import 'package:ditonton/domain/entities/series/series_detail.dart';
-import 'package:ditonton/domain/entities/series/spoken_language.dart';
-import 'package:ditonton/domain/entities/series/t_episode_to_air.dart';
+import 'package:movies/data/models/movie_table.dart';
+import 'package:movies/domain/entitites/genre.dart';
+import 'package:movies/domain/entitites/movie.dart';
+import 'package:movies/domain/entitites/movie_detail.dart';
+import 'package:series/data/models/series_table.dart';
+import 'package:series/domain/entities/network.dart';
+import 'package:series/domain/entities/production_country.dart';
+import 'package:series/domain/entities/season.dart';
+import 'package:series/domain/entities/series.dart';
+import 'package:series/domain/entities/series_detail.dart';
+import 'package:series/domain/entities/genre.dart' as genses;
+import 'package:series/domain/entities/spoken_language.dart';
+import 'package:series/domain/entities/t_episode_to_air.dart';
 
 final testMovie = Movie(
   adult: false,
@@ -78,7 +79,7 @@ final testSeries = Series(
       "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
   popularity: 252.983,
   posterPath: "/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg",
-  firstAirDate: DateTime.parse("2021-11-06"),
+  firstAirDate: "2021-11-06",
   name: "Arcane",
   voteAverage: 8.745,
   voteCount: 3565,
@@ -108,7 +109,7 @@ final testSeriesDetail = SeriesDetail(
     }
   ],
   firstAirDate: DateTime.parse('2024-01-23'),
-  genres: [Genre(id: 1, name: 'Action')],
+  genres: [genses.Genre(id: 1, name: 'Action')],
   homepage: "https://google.com",
   id: 1,
   inProduction: false,
