@@ -9,7 +9,7 @@ import 'package:series/data/models/series_response.dart';
 import 'package:series/series.dart';
 
 import '../../helpers/test_helper.mocks.dart';
-import '../../json_reader.dart';
+import '../../../../../test/json_reader.dart';
 
 void main() {
   late SeriesRemoteDataSourceImpl dataSource;

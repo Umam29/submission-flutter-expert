@@ -8,7 +8,7 @@ import 'package:movies/data/models/movie_detail_model.dart';
 import 'package:movies/data/models/movie_response.dart';
 import 'package:movies/movies.dart';
 
-import '../../json_reader.dart';
+import '../../../../../test/json_reader.dart';
 import '../../helpers/test_helper.mocks.dart';
 
 void main() {
