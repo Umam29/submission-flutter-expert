@@ -4,7 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:movies/data/models/movie_model.dart';
 import 'package:movies/data/models/movie_response.dart';
 
-import '../../../../../test/json_reader.dart';
+import '../../json_reader.dart';
 
 void main() {
   const tMovieModel = MovieModel(
@@ -23,7 +23,7 @@ void main() {
     voteCount: 1,
   );
   final tMovieResponseModel =
-      MovieResponse(movieList: <MovieModel>[tMovieModel]);
+      MovieResponse(movieList: const <MovieModel>[tMovieModel]);
   group('fromJson', () {
     test('should return a valid model from JSON', () async {
       // arrange
