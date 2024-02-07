@@ -11,8 +11,9 @@ import 'package:provider/provider.dart';
 import 'package:ditonton/injection.dart' as di;
 
 void main() async {
-  di.init();
   WidgetsFlutterBinding.ensureInitialized();
+  await HttpClientCustom.init();
+  di.init();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
