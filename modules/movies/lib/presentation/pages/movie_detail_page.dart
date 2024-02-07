@@ -13,7 +13,6 @@ import 'package:movies/presentation/blocs/movies_recommendation_state.dart';
 import 'package:movies/presentation/blocs/watchlist_movies_bloc.dart';
 import 'package:movies/presentation/blocs/watchlist_movies_event.dart';
 import 'package:movies/presentation/blocs/watchlist_movies_state.dart';
-import 'package:provider/provider.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 class MovieDetailPage extends StatefulWidget {
@@ -144,10 +143,11 @@ class DetailContent extends StatelessWidget {
                                       .add(RemoveWatchlistMovie(movie));
                                 }
 
-                                final state = Provider.of<WatchlistMoviesBloc>(
-                                        context,
-                                        listen: false)
-                                    .state;
+                                final state =
+                                    BlocProvider.of<WatchlistMoviesBloc>(
+                                            context,
+                                            listen: false)
+                                        .state;
 
                                 if (state is WatchlistMovieStatus) {
                                   message = state.message;

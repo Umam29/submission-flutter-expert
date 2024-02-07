@@ -8,7 +8,7 @@ import 'package:series/domain/entities/t_episode_to_air.dart';
 
 class SeriesDetail extends Equatable {
   final bool adult;
-  final String backdropPath;
+  final String? backdropPath;
   final List<dynamic> createdBy;
   final List<dynamic> episodeRunTime;
   final DateTime firstAirDate;

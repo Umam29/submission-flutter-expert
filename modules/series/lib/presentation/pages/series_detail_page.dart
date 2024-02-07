@@ -3,7 +3,6 @@ import 'package:core/common/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:provider/provider.dart';
 import 'package:series/domain/entities/genre.dart';
 import 'package:series/domain/entities/series_detail.dart';
 import 'package:series/presentation/blocs/series_detail_bloc.dart';
@@ -149,10 +148,11 @@ class DetailContent extends StatelessWidget {
                                       .add(DeleteWatchlistSeries(series));
                                 }
 
-                                final state = Provider.of<WatchlistSeriesBloc>(
-                                        context,
-                                        listen: false)
-                                    .state;
+                                final state =
+                                    BlocProvider.of<WatchlistSeriesBloc>(
+                                            context,
+                                            listen: false)
+                                        .state;
 
                                 if (state is WatchlistSeriesStatus) {
                                   message = state.message;
